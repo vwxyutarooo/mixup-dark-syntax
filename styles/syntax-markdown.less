@@ -1,0 +1,73 @@
+// GitHub Markdown Styles
+atom-text-editor,
+:host {
+  .gfm {
+    color: #eee;
+    &.source {
+      color: #f7f7f7;
+    }
+    .constant {
+      color: @colorPurple;;
+    }
+    .markup.heading {
+      color: @colorOrange;;
+    }
+    .link {
+      color: #eee;
+      .definition {
+        color: #eee;
+      }
+      .entity {
+        color: @colorBlue;
+      }
+      .underline {
+        color: @colorYellow;
+      }
+    }
+    .bold,
+    .italic {
+      color: @colorRed;
+    }
+    .raw {
+      color: @colorCyan;;
+    }
+    .support {
+      color: #fff;
+    }
+    .variable.list {
+      color: @colorLightYellow;
+    }
+    .quote {
+      color: @colorCyanium;
+    }
+    .table {
+      color: #888;
+    }
+  }
+}
+
+
+// Markdown Styles
+atom-text-editor,
+:host {
+  .markdown {
+    .paragraph {
+      color: #999;
+    }
+    .heading {
+      color: #eee;
+    }
+    .raw {
+      color: #aaa;
+    }
+    .link {
+      color: #555;
+      .string {
+        color: #555;
+        &.title {
+          color: #ddd;
+        }
+      }
+    }
+  }
+}
