@@ -2,9 +2,10 @@
   "name": "mixup-dark-syntax",
   "theme": "syntax",
   "version": "0.1.0",
-  "description": "A short description of your syntax theme",
+  "description": "Colorful dark syntax",
   "keywords": [
-    "syntax"
+    "syntax",
+    "theme"
   ],
   "repository": "https://github.com/vwxyutarooo/mixup-dark-syntax.git",
   "license": "MIT",
