@@ -1,8 +1,9 @@
 .variable {
-  &.js:not(.object):not(.this) {
-    color: #fff;
+  &.js.object,
+  &.js.this {
+    color: @colorOrange;
   }
-  &.js.property:not(other) {
+  &.js.property:not(.other) {
     color: @colorCyan;
   }
 }
