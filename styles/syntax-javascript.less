@@ -1,9 +1,14 @@
-.variable {
-  &.js.object,
-  &.js.this {
-    color: @colorOrange;
+.js {
+  &.tag.decorator {
+    color: @colorRed;
   }
-  &.js.property:not(.other) {
-    color: @colorCyan;
+  &.variable {
+    &.object,
+    &.this {
+      color: @colorOrange;
+    }
+    &.property:not(.other) {
+      color: @colorCyan;
+    }
   }
 }
