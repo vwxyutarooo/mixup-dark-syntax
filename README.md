@@ -1,6 +1,6 @@
 ## mixup-dark-syntax theme
 
-A syntax highlighting theme for the Atom text editor.
+A syntax highlighting theme for the Atom text editor. Based on Monokai, mix up some more color.
 
 
 ### JavaScript

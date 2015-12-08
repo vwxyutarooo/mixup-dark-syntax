@@ -1,11 +1,12 @@
 {
   "name": "mixup-dark-syntax",
   "theme": "syntax",
-  "version": "0.1.0",
-  "description": "Colorful dark syntax",
+  "version": "0.1.1",
+  "description": "Monokai based, mix up some more color.",
   "keywords": [
     "syntax",
-    "theme"
+    "theme",
+    "monokai"
   ],
   "repository": "https://github.com/vwxyutarooo/mixup-dark-syntax.git",
   "license": "MIT",
