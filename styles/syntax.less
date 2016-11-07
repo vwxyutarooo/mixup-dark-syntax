@@ -88,7 +88,10 @@
 /* Storage
 ------------------------------------------ */
 .storage {
-  color: @colorCyan;
+  color: @colorRed;
+  &.type {
+    color: @colorCyan;
+  }
   &.function {
     font-style: italic;
   }
@@ -163,7 +166,13 @@
 /* Support
 ------------------------------------------ */
 .support {
-  color: @colorCyan;
+  &.function {
+    color: @colorCyan;
+  }
+  &.class,
+  &.type {
+    color: @colorCyan;
+  }
 }
 
 /* Source

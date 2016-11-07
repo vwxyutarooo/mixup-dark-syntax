@@ -1,14 +1,18 @@
+.ts,
 .js {
   &.tag.decorator {
     color: @colorRed;
   }
+  &.meta.decorator {
+    .decorator.punctuation,
+    .function {
+      color: @colorRed;
+    }
+  }
   &.variable {
-    &.object,
+    &.other.object:not(.property),
     &.this {
       color: @colorOrange;
-    }
-    &.property:not(.other) {
-      color: @colorCyan;
     }
   }
 }
